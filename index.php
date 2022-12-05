@@ -36,7 +36,7 @@ p{text-align:left;}
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            테마
+            테마-7
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="art.html">art</a></li>
@@ -74,18 +74,65 @@ p{text-align:left;}
         <li class="nav-item">
           <a class="nav-link disabled">Disabled</a>
         </li>
-	<li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="joo.html">관련 주</a>
+	<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            관련 주식
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="UPBIT.HTML">업비트 관련</a></li>
+	<li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="BITHUM.HTML">빗썸 관련</a></li>
+	<li><hr class="dropdown-divider"></li>
+	<li><a class="dropdown-item" href="CBDC.HTML">CBDC 관련</a></li>
+          </ul>
         </li>
       </ul>
       <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
 	<a href="file:///C:/Users/%EB%A0%88%EC%A7%80%EB%8D%B4%EC%85%9C/Desktop/login.html" button class="btn btn-outline-success" type="submit">Login</button></a>
+	
+
+
       </form>
     </div>
   </div>
 </nav>
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+  {
+  "symbols": [
+    {
+      "description": "BTC",
+      "proName": "CRYPTOCAP:BTC"
+    },
+    {
+      "description": "KRW",
+      "proName": "FX_IDC:KRWUSD"
+    },
+    {
+      "description": "USD",
+      "proName": "FX_IDC:USDKRW"
+    },
+    {
+      "description": "GOLD",
+      "proName": "TVC:GOLD"
+    },
+    {
+      "description": "SILVER",
+      "proName": "TVC:SILVER"
+    }
+  ],
+  "colorTheme": "light",
+  "isTransparent": false,
+  "showSymbolLogo": true,
+  "locale": "kr"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
 <br>
 <div class="container">
   <div class="row">
@@ -111,25 +158,25 @@ p{text-align:left;}
   </div>
 </div>
     </div>
-    <div class="col-lg-3">
+<div class="col-lg-3">
      <div class="card" style="width: 18rem;">
   <img src="코스모스.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">3대 법정화폐 국가</h5>
-    <p class="card-text"></p>
-    <a href="#" class="btn btn-primary">twitter</a>
-    <a href="#" class="btn btn-primary">웹사이트</a>
+    <p class="card-text">테슬라, 스페이스X, 뉴럴링크 CEO</p>
+    <a href="https://twitter.com/elonmusk"class="btn btn-primary">twitter</a>
+   <a href="https://www.spacex.com/" class="btn btn-primary">스페이스X</a>
   </div>
 </div>
     </div>
     <div class="col-lg-3">
-      <div class="card" style="width: 18rem;">
+     <div class="card" style="width: 18rem;">
   <img src="코스모스.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">4대 법정화폐 국가</h5>
-    <p class="card-text"></p>
-    <a href="#" class="btn btn-primary">twitter</a>
-    <a href="#" class="btn btn-primary">웹사이트</a>
+    <p class="card-text">테슬라, 스페이스X, 뉴럴링크 CEO</p>
+    <a href="https://twitter.com/elonmusk"class="btn btn-primary">twitter</a>
+   <a href="https://www.spacex.com/" class="btn btn-primary">스페이스X</a>
   </div>
 </div>
     </div>
