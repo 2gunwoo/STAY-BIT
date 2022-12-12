@@ -1,0 +1,438 @@
+<!DOCYPE html>
+
+<head>
+<meta charset="utf-8">
+<title>사이트</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<style>
+
+ body{
+		 background: linear-gradient(to right bottom, #6A5ACD, black 20%, #4B0082);
+             }
+</style>
+
+</head>
+
+<body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">STAY BIT : 암호화폐</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.php">Home(메인 이동 완료)</a>
+        </li>
+        <li class="nav-item">
+         <a class="nav-link active" aria-current="page" onclick="window.open('https://kr.tradingview.com/chart/?symbol=CRYPTOCAP%3AUSDT.D','window_name',  'width=500, height=600, scrollbars=yes');">테더 도미넌스</a>
+        </li>
+	<li class="nav-item">
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            테마(1/5진행중)
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="art.html">art</a></li>
+	<li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="vr_ar.html">vr/ar</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="web3.html">web3</a></li>
+	<li><hr class="dropdown-divider"></li>
+	<li><a class="dropdown-item" href="sports.html">sports</a></li>
+	<li><hr class="dropdown-divider"></li>
+	<li><a class="dropdown-item" href="memes.html">memes</a></li>
+	<li><hr class="dropdown-divider"></li>
+	<li><a class="dropdown-item" href="energy.html">energy</a></li>
+	<li><hr class="dropdown-divider"></li>
+	<li><a class="dropdown-item" href="soo.html">거래소 코인</a></li>
+          </ul>
+        </li>
+
+
+
+ <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            게시판&공지
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="dog.html">게시판</a></li>
+            <li><a class="dropdown-item" href="gong.html">공지사항</a></li>
+	<li><hr class="dropdown-divider"></li>
+	<li><a class="dropdown-item" href="up.html">업데이트 현황</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+	<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            관련 주식
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="UPBIT.HTML">업비트 관련</a></li>
+	<li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="BITHUM.HTML">빗썸 관련</a></li>
+	<li><hr class="dropdown-divider"></li>
+	<li><a class="dropdown-item" href="CBDC.HTML">CBDC 관련</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+  {
+  "symbols": [
+    {
+      "description": "BTC",
+      "proName": "CRYPTOCAP:BTC"
+    },
+    {
+      "description": "KRW",
+      "proName": "FX_IDC:KRWUSD"
+    },
+    {
+      "description": "USD",
+      "proName": "FX_IDC:USDKRW"
+    },
+    {
+      "description": "GOLD",
+      "proName": "TVC:GOLD"
+    },
+    {
+      "description": "SILVER",
+      "proName": "TVC:SILVER"
+    }
+  ],
+  "colorTheme": "dark",
+  "isTransparent": false,
+  "showSymbolLogo": true,
+  "locale": "kr"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+
+
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-3">
+      <div class="card" style="width: 22rem;">
+	<h5 class="card-title">다날</h5>
+  <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright">TradingView 제공 <a href="https://kr.tradingview.com/symbols/KRX-064260/" rel="noopener" target="_blank"><span class="blue-text">064260 쿼트</span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+  {
+  "symbol": "KRX:064260",
+  "width": "350",
+  "height": "220",
+  "locale": "kr",
+  "dateRange": "1D",
+  "colorTheme": "dark",
+  "trendLineColor": "rgba(255, 0, 255, 1)",
+  "underLineColor": "rgba(217, 210, 233, 0.3)",
+  "underLineBottomColor": "rgba(41, 98, 255, 0)",
+  "isTransparent": false,
+  "autosize": false,
+  "largeChartUrl": "",
+  "noTimeScale": false,
+  "chartOnly": false
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+  <div class="card-body">
+    <p class="card-text">다날핀테크의 지분을 58.91% 보유</p>
+  </div>
+</div>
+</div>
+
+
+
+
+
+<div class="col-lg-3">
+      <div class="card" style="width: 22rem;">
+	    <h5 class="card-title">카카오</h5>
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright">TradingView 제공 <a href="https://kr.tradingview.com/symbols/KRX-035720/" rel="noopener" target="_blank"><span class="blue-text">035720 쿼트</span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+  {
+  "symbol": "KRX:035720",
+  "width": "350",
+  "height": "220",
+  "locale": "kr",
+  "dateRange": "1D",
+  "colorTheme": "dark",
+  "trendLineColor": "rgba(255, 0, 255, 1)",
+  "underLineColor": "rgba(217, 210, 233, 0.3)",
+  "underLineBottomColor": "rgba(41, 98, 255, 0)",
+  "isTransparent": false,
+  "autosize": false,
+  "largeChartUrl": "",
+  "noTimeScale": false,
+  "chartOnly": false
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+  <div class="card-body">
+    <p class="card-text">두나무의 지분 약 20% 보유</p>
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+<div class="col-lg-3">
+      <div class="card" style="width: 22rem;">
+	 <h5 class="card-title">한화투자증권</h5>
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright">TradingView 제공 <a href="https://kr.tradingview.com/symbols/KRX-003530/" rel="noopener" target="_blank"><span class="blue-text">003530 쿼트</span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+  {
+  "symbol": "KRX:003530",
+  "width": "350",
+  "height": "220",
+  "locale": "kr",
+  "dateRange": "1D",
+  "colorTheme": "dark",
+  "trendLineColor": "rgba(255, 0, 255, 1)",
+  "underLineColor": "rgba(217, 210, 233, 0.3)",
+  "underLineBottomColor": "rgba(41, 98, 255, 0)",
+  "isTransparent": false,
+  "autosize": false,
+  "largeChartUrl": "",
+  "noTimeScale": false,
+  "chartOnly": false
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+
+  <div class="card-body">
+    <p class="card-text">두나무의 지분을 6.15% 보유</p>
+  </div>
+</div>
+    </div>
+
+
+
+
+
+
+<div class="col-lg-3">
+      <div class="card" style="width: 22rem;">
+	<h5 class="card-title">우리기술투자</h5>
+
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright">TradingView 제공 <a href="https://kr.tradingview.com/symbols/KRX-041190/" rel="noopener" target="_blank"><span class="blue-text">041190 쿼트</span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+  {
+  "symbol": "KRX:041190",
+  "width": "350",
+  "height": "220",
+  "locale": "kr",
+  "dateRange": "1D",
+  "colorTheme": "dark",
+  "trendLineColor": "rgba(255, 0, 255, 1)",
+  "underLineColor": "rgba(217, 210, 233, 0.3)",
+  "underLineBottomColor": "rgba(41, 98, 255, 0)",
+  "isTransparent": false,
+  "autosize": false,
+  "largeChartUrl": "",
+  "noTimeScale": false,
+  "chartOnly": false
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+  <div class="card-body">
+    <p class="card-text">두나무의 지분을 약 8% 보유</p>
+  </div>
+</div>
+    </div>
+
+
+
+
+
+
+<div class="col-lg-3">
+      <div class="card" style="width: 22rem;">
+	 <h5 class="card-title">TS인베스트먼트</h5>
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright">TradingView 제공 <a href="https://kr.tradingview.com/symbols/KRX-246690/" rel="noopener" target="_blank"><span class="blue-text">246690 쿼트</span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+  {
+  "symbol": "KRX:246690",
+  "width": "350",
+  "height": "220",
+  "locale": "kr",
+  "dateRange": "1D",
+  "colorTheme": "dark",
+  "trendLineColor": "rgba(255, 0, 255, 1)",
+  "underLineColor": "rgba(217, 210, 233, 0.3)",
+  "underLineBottomColor": "rgba(41, 98, 255, 0)",
+  "isTransparent": false,
+  "autosize": false,
+  "largeChartUrl": "",
+  "noTimeScale": false,
+  "chartOnly": false
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+  <div class="card-body">
+    <p class="card-text">펀드 방식으로 두나무에 투자</p>
+  </div>
+</div>
+    </div>
+
+
+
+
+
+
+<div class="col-lg-3">
+      <div class="card" style="width: 22rem;">
+	 <h5 class="card-title">DSC인베스트먼트</h5>
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright">TradingView 제공 <a href="https://kr.tradingview.com/symbols/KRX-241520/" rel="noopener" target="_blank"><span class="blue-text">241520 쿼트</span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+  {
+  "symbol": "KRX:241520",
+  "width": "350",
+  "height": "220",
+  "locale": "kr",
+  "dateRange": "1D",
+  "colorTheme": "dark",
+  "trendLineColor": "rgba(255, 0, 255, 1)",
+  "underLineColor": "rgba(217, 210, 233, 0.3)",
+  "underLineBottomColor": "rgba(41, 98, 255, 0)",
+  "isTransparent": false,
+  "autosize": false,
+  "largeChartUrl": "",
+  "noTimeScale": false,
+  "chartOnly": false
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+  <div class="card-body">
+    <p class="card-text">업비트 지분 0.3% 투자 이력</p>
+  </div>
+</div>
+    </div>
+
+
+
+
+
+
+
+<div class="col-lg-3">
+      <div class="card" style="width: 22rem;">
+	 <h5 class="card-title">에이티넘인베스트</h5>
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright">TradingView 제공 <a href="https://kr.tradingview.com/symbols/KRX-021080/" rel="noopener" target="_blank"><span class="blue-text">021080 쿼트</span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+  {
+  "symbol": "KRX:021080",
+  "width": "350",
+  "height": "220",
+  "locale": "kr",
+  "dateRange": "1D",
+  "colorTheme": "dark",
+  "trendLineColor": "rgba(255, 0, 255, 1)",
+  "underLineColor": "rgba(217, 210, 233, 0.3)",
+  "underLineBottomColor": "rgba(41, 98, 255, 0)",
+  "isTransparent": false,
+  "autosize": false,
+  "largeChartUrl": "",
+  "noTimeScale": false,
+  "chartOnly": false
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+  <div class="card-body">
+    <p class="card-text">두나무의 지분을 약 6% 이상 보유</p>
+  </div>
+</div>
+    </div>
+
+
+
+
+
+
+
+<div class="col-lg-3">
+      <div class="card" style="width: 22rem;">
+	 <h5 class="card-title">SCI평가정보</h5>
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright">TradingView 제공 <a href="https://kr.tradingview.com/symbols/KRX-036120/" rel="noopener" target="_blank"><span class="blue-text">036120 쿼트</span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+  {
+  "symbol": "KRX:036120",
+  "width": "350",
+  "height": "220",
+  "locale": "kr",
+  "dateRange": "1D",
+  "colorTheme": "dark",
+  "trendLineColor": "rgba(242, 242, 242, 1)",
+  "underLineColor": "rgba(242, 242, 242, 0.28)",
+  "underLineBottomColor": "rgba(255, 255, 255, 0.13)",
+  "isTransparent": false,
+  "autosize": false,
+  "largeChartUrl": "",
+  "noTimeScale": false,
+  "chartOnly": false
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+  <div class="card-body">
+    <p class="card-text">비트코인 보안 관련 사업을 진행 중</p>
+  </div>
+</div>
+</div>
+</div>
+<h2 style="color:white;">업비트 관련 주 + 암호화폐 관련 주</h2>
+<hr>
+<hr>
+
+</body>
